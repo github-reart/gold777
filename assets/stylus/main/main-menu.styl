@@ -1,0 +1,76 @@
+.main-menu
+  background #f6f6f6
+  width 270px
+  font $font-family-calibri
+  &_popup
+    background #ffffff
+    width 275px
+    position absolute
+    z-index 9999
+    top 266px
+    left 420px
+
+.main-menu__title
+  font-weight bold
+  height 39px
+  line-height 39px
+  padding-left 31px
+  font-size $font+12
+  background url($url "/assets/images/main-menu.png") no-repeat
+  box-shadow 0px 3px 10px 0px rgba(0, 0, 0, 0.451)
+
+.main-menu__ul
+  position relative
+  left -40px
+  width 100%
+  &_popup
+    margin-left -40px
+    position absolute
+    top 0px
+    left 310px
+    width 275px
+    display none
+
+.main-menu__li
+  list-style none
+  height 40px
+  line-height 40px
+  border-bottom 1px solid #e2e0e0
+  &:hover
+    background #ffffff
+  &_popup
+    list-style none
+    height 40px
+    line-height 40px
+    border-bottom 1px solid #e2e0e0
+    color #000000
+    background #ffffff
+    &:hover
+      background #cccccc
+      color $main-link-color
+
+.main-menu__li_popup:first-child, .main-menu__li_popup:last-child
+  height 45px
+  line-height 45px
+
+
+.main-menu__li:first-child, .main-menu__li:last-child
+    height 45px
+    line-height 45px
+
+.main-menu__link
+  font-size $font+6
+  text-decoration none
+  color #000000
+  margin-left 31px
+  &_popup
+    font-size $font+6
+    text-decoration none
+    color inherit
+    margin-left 31px
+
+.main-menu__arrow
+  float right
+  margin-right 20px
+  font-size $font+8
+  color #d8d8d8

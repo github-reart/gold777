@@ -1,0 +1,28 @@
+{
+  "name": "gold777",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Efimov",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-watch": "^4.3.11",
+    "ion-rangeslider": "^2.1.6",
+    "jquery": "^3.2.1",
+    "gulp-stylus": "latest",
+    "gulp-watch": "latest",
+    "gulp-myth": "latest",
+    "gulp-csso": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nib": "^1.1.2",
+    "slick-carousel": "^1.6.0"
+  }
+}
